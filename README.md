@@ -12,5 +12,5 @@ To compare models and select the best for this task, the accuracy is measured. B
 
 
 # Model Summary
-Looking at model results, the best accuracy on the test set is achieved by the neural network with 0,7996. Given the high imbalance of the data towards non-churners, it makes sense to compare F1 scores to get the model with the best score on jointly precision and recall. This would also be the neural network with a F1 score of 0,5948.
+Looking at model results, the best accuracy on the test set is achieved by the Logistic Rgression score (recall = 0.73 and precision = 0.82) . Given the high imbalance of the data towards non-churners, it makes sense to compare F1 scores to get the model with the best score on jointly precision and recall. This would also be the Logistic Regression  with a F1 score of 0.78.
 Given the scores of the best performing models, it can be observed that F1 scores are not much above 50%. Further optimization efforts should be carried out to achieve a higher scores and thereby increase prediction power for more business value.
